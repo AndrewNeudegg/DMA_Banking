@@ -238,5 +238,8 @@ ModelManifest.xml
 # Paket dependency manager
 .paket/paket.exe
 
+# Ignore Compiled Code
+*.exe
+
 # FAKE - F# Make
 .fake/

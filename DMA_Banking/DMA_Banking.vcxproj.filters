@@ -19,9 +19,12 @@
     <Filter Include="Source Files\Account">
       <UniqueIdentifier>{9efcbff2-36eb-4548-8457-02cb745b1597}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="ReadMe.txt" />
+    <Filter Include="Source Files\Account\Account Functions">
+      <UniqueIdentifier>{10047a45-ad4b-487f-bbff-d1e418cb0fcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Client\Client Functions">
+      <UniqueIdentifier>{7161e406-a4d1-4701-8b2f-aec6c550d76f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -65,5 +68,8 @@
     <ClCompile Include="DMA_Banking.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.md" />
   </ItemGroup>
 </Project>
