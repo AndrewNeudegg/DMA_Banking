@@ -42,6 +42,21 @@
     <ClInclude Include="ClientInformation.h">
       <Filter>Source Files\Client</Filter>
     </ClInclude>
+    <ClInclude Include="ClientSecurity.h">
+      <Filter>Source Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Address.h">
+      <Filter>Source Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Transaction.h">
+      <Filter>Source Files\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="TransactionTypeEnum.h">
+      <Filter>Source Files\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeStruct.h">
+      <Filter>Source Files\Account</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
